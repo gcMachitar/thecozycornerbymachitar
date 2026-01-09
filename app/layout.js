@@ -8,6 +8,10 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 export const metadata = {
   title: { default: "The Cozy Corner", template: "%s | The Cozy Corner" },
   description: "A futuristic digital bookstore with hand-picked recommendations in a neon cyberpunk atmosphere.",
+
+  verification: {
+    google: "CFaF4OGuDCGPfRIYO8i7VT5WHlzTAOw-BMixO8wOdIQ",
+    },
 };
 
 export default function RootLayout({ children }) {
